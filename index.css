@@ -23,8 +23,8 @@ header{
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.8em;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 .navig a{
@@ -33,6 +33,7 @@ header{
     color: rgb(255, 255, 255);
     font-weight: 500;
     padding-left: 20px;
+    transition: 0.7s ease;
 }
 
 .navig a:hover{
@@ -40,6 +41,66 @@ header{
     
 }
 
-.main{
-    padding-top: 100px;
+section{
+    padding: 100px 200px;
 }
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    background: url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.main h2, h3{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: wheat;
+}
+
+.main h1{
+    font-size: 4em;
+    line-height: 1em;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+a{
+    color: black;
+}
+
+.socials{
+    color: blue;
+}
+
+.btn{
+    color:white;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 0.96em 2.18em;
+    font-size: 1.1em;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #1a1a1a;
+    transform: scale(1.1);
+}
+
+.socials a{
+    color: #ffffff;
+    padding-right: 15px;
+    font-size: 1.6em;
+}
+
