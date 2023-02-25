@@ -183,8 +183,9 @@ a{
   
   /*.container .heading{
     width: 50%;
-    padding-bottom: 50px;*/
-  }
+    padding-bottom: 50px;
+  }*/
+  
   .container .heading h3{
     font-size: 3em;
     font-weight: bolder;
